@@ -54,17 +54,34 @@
 
 <br>
 
-        <label for="question"><h3> Security Question </h3></label>
-            <select name="question" id="question">
 
-                
-            </select>
+        <label for="security_question"> <h3> Security Question </h3> </label>
+            <select name="security_question" id="security_question">
+                <option value="q1"> What is your mothers maiden name? </option>
+
+                <option value="q2"> Who was your favourite childhood actor? </option>
+
+                <option value="q3"> What Town were you born in? </option>
+
+                <option value="q4"> What is your favourite TV show? </option>
+            </select> <br> <br>
+
+          <label for="answer"> Security Answer: </label>  
+            <input type="text" id="answer" name="answer">
+
+
+            <br> <br>
+
+
+            <textarea name="security_answer" id="security_answer" cols="30" rows="5" placeholder="Answer the question above."> </textarea>
 
 
 <br> <br>
     
-        <button type="submit"> Submit </button> 
 
+        <input type="submit" value="submit form">
+
+        
 </form>
     </body>
 </html>
